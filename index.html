@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app='AppNgenterTest'>
+<head>
+	<title>Angular NG Enter Test</title>
+	<script type="text/javascript" src='example/angular/angular.min.js'></script>
+	<script type="text/javascript" src='ngEnter.js'></script>
+	<script type="text/javascript" src='example/app.js'></script>
+</head>
+<body>
+	<div ng-controller="TestCtrl">	
+		<input type="text" name'testinput' on-enter='shoutOut()' />
+	</div>
+
+	<p>
+		<strong>when you press enter, the shout method in the test controller will be executed</strong>
+	</p>
+
+</body>
+</html>
